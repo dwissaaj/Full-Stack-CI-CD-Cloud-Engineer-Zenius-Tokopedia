@@ -124,20 +124,22 @@
             <div class="row ">
 
                 <!--SUBTITLE-->
-                <div id="kejarDiskon1">
-                    <span class="h2 fw-bold me-3">Kejar Diskon Spesial</span>
-                    <span class="h5 fw-light me-3">Berakhir Dalam</span>
-                    <button class="btn btn-danger fw-bold text-white" >
-                        <span id="btnHour">00</span>
-                    </button>
+                <div class="div-kd-title">
+                    <span class="" id="div-kd-subtitle">Kejar Diskon Spesial</span>
+                    <p class="m-0" id="div-kd-subtitle-2">Berakhir Dalam</p>
+                    <div class="div-kd-time">
+                        <button class="btn btn-danger fw-bold text-white" >
+                            <span id="btnHour">00</span>
+                        </button>
+                            <span class="fw-bolder text-danger">:</span>
+                        <button class="btn btn-danger fw-bold text-white" >
+                            <span id="btnMinute">00</span>
+                        </button>
                         <span class="fw-bolder text-danger">:</span>
-                    <button class="btn btn-danger fw-bold text-white" >
-                        <span id="btnMinute">00</span>
-                    </button>
-                    <span class="fw-bolder text-danger">:</span>
-                    <button class="btn btn-danger fw-bold text-white" >
-                        <span id="btnSecond">00</span>
-                    </button>
+                        <button class="btn btn-danger fw-bold text-white" >
+                            <span id="btnSecond">00</span>
+                        </button>
+                    </div>
                 </div>
 
                 <!--SUB CARD GROUD-->
@@ -374,6 +376,7 @@
         </div>
     </section>
 
+
     <section>
         <div class="container mb-3">
             <div class="row">
@@ -381,35 +384,355 @@
             </div>
         </div>
     </section>
-    <!--SECTION BERDASARKAN PENCARIAN-->
 
+
+    <!--SECTION BERDASARKAN PENCARIAN-->
     <section>
-        <div class="container">
-            <div class="row">
-                <div id="bp-carousel" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+        <div class="container mb-5">
+            <div class="row mb-5">
+                <!--SUBTITLE-->
+                <div class="div-title">
+                    <span class="me-3">Berdasarkan Pencarianmu</span>
+                    <a href="" class="">Lihat Semua</a>
+                </div>
+                <div id="bp-carousel" class="carousel slide p-0" data-bs-touch="false" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="bigger-card-container">
-                                <div class="bigger-card">
-                                    <img src="" alt="">
-                                    <p>Title</p>
-                                    <p>Text</p>
+                            <!--ACTIVE CARD-->
+                            <div class="bigger-card-container ">
+                                <div class="bigger-card ">
+                                    <img src="../assets/c1.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">LAPTOP SAMSUNG SIAOMY</p>
+                                    <p class="bigger-card-title-price">Rp.90.000</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">90%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.240.000</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota Tangerang</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
                                 </div>
-                                <div class="bigger-card">
-                                    <img src="" alt="">
-                                    <p>Title</p>
-                                    <p>Text</p>
+                                <div class="bigger-card ">
+                                    <img src="../assets/c2.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">bagus banget ini jualan</p>
+                                    <p class="bigger-card-title-price">Rp.900.340.000</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">100%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.5.000.000</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota yang hanya entah dimana dia</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
+                                </div>
+                                <div class="bigger-card ">
+                                    <img src="../assets/c3.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">testing testing</p>
+                                    <p class="bigger-card-title-price">Rp.644.340.000.4232.323</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">90%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.345.634.235</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota Tangerang</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
+                                </div>
+                                <div class="bigger-card ">
+                                    <img src="../assets/c1.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">LAPTOP SAMSUNG SIAOMY</p>
+                                    <p class="bigger-card-title-price">Rp.90.000</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">90%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.240.000</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota Tangerang</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
+                                </div>
+                                <div class="bigger-card ">
+                                    <img src="../assets/c2.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">bagus banget ini jualan</p>
+                                    <p class="bigger-card-title-price">Rp.900.340.000</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">100%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.5.000.000</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota yang hanya entah dimana dia</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
+                                </div>
+                                <div class="bigger-card ">
+                                    <img src="../assets/c3.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">testing testing</p>
+                                    <p class="bigger-card-title-price">Rp.644.340.000.4232.323</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">90%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.345.634.235</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota Tangerang</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!--CAROUSEL 2-->
+                        <div class="carousel-item">
+                            <div class="bigger-card-container ">
+                                <div class="bigger-card ">
+                                    <img src="../assets/c3.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">sdfsfsdfdsf</p>
+                                    <p class="bigger-card-title-price">Rp.560.000</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">90%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.240.000</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota Tangerang</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
+                                </div>
+                                <div class="bigger-card ">
+                                    <img src="../assets/c5.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">bagus banget ini jualan</p>
+                                    <p class="bigger-card-title-price">Rp.456.340.000</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">100%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.5.000.000</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota yang hanya entah dimana dia</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
+                                </div>
+                                <div class="bigger-card ">
+                                    <img src="../assets/c6.jpg" alt="" class="bigger-card-img">
+                                    <p class="bigger-card-title-product">testing testing</p>
+                                    <p class="bigger-card-title-price">Rp.124.340.000</p>
+                                        <div class="bigger-card-div-discount"> 
+                                            <button class="bigger-card-btn-discount">90%</button>
+                                            <p class="bigger-card-title-discount m-0">Rp.345.634.235</p>
+                                        </div>
+                                            <p class="bigger-card-title-city">Kota Jakarta</p>
+                                        <div class="bigger-card-title-star">
+                                            <span class="">4.9</span>
+                                            <span>Terjual</span>
+                                            <span>500+</span>
+                                        </div>
+                                </div>
+                                <div class="bigger-card-container ">
+                                    <div class="bigger-card ">
+                                        <img src="../assets/c1.jpg" alt="" class="bigger-card-img">
+                                        <p class="bigger-card-title-product">LAPTOP SAMSUNG SIAOMY</p>
+                                        <p class="bigger-card-title-price">Rp.90.000</p>
+                                            <div class="bigger-card-div-discount"> 
+                                                <button class="bigger-card-btn-discount">90%</button>
+                                                <p class="bigger-card-title-discount m-0">Rp.240.000</p>
+                                            </div>
+                                                <p class="bigger-card-title-city">Kota Jakarta Selatan</p>
+                                            <div class="bigger-card-title-star">
+                                                <span class="">4.9</span>
+                                                <span>Terjual</span>
+                                                <span>500+</span>
+                                            </div>
+                                    </div>
+                                    <div class="bigger-card ">
+                                        <img src="../assets/c2.jpg" alt="" class="bigger-card-img">
+                                        <p class="bigger-card-title-product">bagus banget ini jualan</p>
+                                        <p class="bigger-card-title-price">Rp.900.340.000</p>
+                                            <div class="bigger-card-div-discount"> 
+                                                <button class="bigger-card-btn-discount">100%</button>
+                                                <p class="bigger-card-title-discount m-0">Rp.5.000.000</p>
+                                            </div>
+                                                <p class="bigger-card-title-city">Kota yang hanya entah dimana dia</p>
+                                            <div class="bigger-card-title-star">
+                                                <span class="">4.9</span>
+                                                <span>Terjual</span>
+                                                <span>500+</span>
+                                            </div>
+                                    </div>
+                                    <div class="bigger-card ">
+                                        <img src="../assets/c3.jpg" alt="" class="bigger-card-img">
+                                        <p class="bigger-card-title-product">testing testing</p>
+                                        <p class="bigger-card-title-price">Rp.644.340.000.4232.323</p>
+                                            <div class="bigger-card-div-discount"> 
+                                                <button class="bigger-card-btn-discount">90%</button>
+                                                <p class="bigger-card-title-discount m-0">Rp.345.634.235</p>
+                                            </div>
+                                                <p class="bigger-card-title-city">Kota Tangerang</p>
+                                            <div class="bigger-card-title-star">
+                                                <span class="">4.9</span>
+                                                <span>Terjual</span>
+                                                <span>500+</span>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!--END OF INNER CAROUSEL-->
+                    <button class="carousel-2-prev carousel-control-prev" type="button" data-bs-target="#bp-carousel" data-bs-slide="prev">
+                        <i class="bi bi-arrow-bar-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-2-next carousel-control-next" type="button" data-bs-target="#bp-carousel" data-bs-slide="next">
+                        <i class="bi bi-arrow-bar-right"></i>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section>
+        <div class="container mb-3">
+            <div class="row">
+                <div class="border-bottom"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION BRAND PILIHAN-->
+    <div class="container mb-5">
+        <div class="row mb-5">
+            <!--SUBTITLE-->
+            <div class="div-title">
+                <span class="me-3">Promo Brand Pilihan</span>
+            </div>
+            <img src="../assets/banner5.jpg" alt="" class="bp-container-img">
+        </div>
+    </div>
+
+    <section>
+        <div class="container mb-3">
+            <div class="row">
+                <div class="border-bottom border-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION FOR ME-->
+    <section>
+        <div class="container mb-5">
+            <div class="container-fm">
+                <div class="btn-div" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="div-btn-fm me-2" role="group" aria-label="First group">
+                        <a href="promo.html">
+                            <button class="btn-fm">
+                                <p class="btn-p">For Dwi</p>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="div-btn-cf me-2" role="group" aria-label="Second group">
+                        <a href="promo.html">
+                            <button class="btn-cf">
+                                <p class="btn-p">Cantik Fest</p>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="div-btn-sd me-2" role="group" aria-label="Third group">
+                        <a href="promo.html">
+                            <button class="btn-sd">
+                                <p class="btn-p">Special Discount</p>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="div-btn-am me-2" role="group" aria-label="Fourth group">
+                        <a href="promo.html">
+                            <button class="btn-am">
+                                <p class="btn-p">Aktivitasmu</p>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="div-btn-d me-2" role="group" aria-label="Fifth group">
+                        <a href="promo.html">
+                            <button class="btn-d" id="btn-deo">
+                                <p class="btn-p">Deodorant</p>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--SECTION CONTACT-->
 
+    <section>
+        <footer>
+            <div class="container">
+                <div class="row d-flex justify-content-evenly text-muted mb-5">
+                    <div class="col-2 ">
+                        <ul class="menu">
+                            <li><p class="h5 text-dark">Tokopedia</p></li>
+                            <li><a href="#" class="footer-text">Tentang Tokopedia</a></li>
+                            <li><a href="#" class="footer-text">Hak Kekayaan Intelektual</a></li>
+                            <li><a href="#" class="footer-text">Karir</a></li>
+                            <li><a href="#" class="footer-text">Blog</a></li>
+                            <li><a href="#" class="footer-text">Bridestory</a></li>
+                            <li><a href="#" class="footer-text">Tokopedia Parents</a></li>
+                            <li><a href="#" class="footer-text">Tokopedia Affiliate Program</a></li>
+                            <li><a href="#" class="footer-text">Tokopedia B2B Digital</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <ul class="menu">
+                            <li><p class="h5 text-dark">Beli</p></li>
+                            <li><a href="#" class="footer-text">Tagihan & Top Up</a></li>
+                            <li><a href="#" class="footer-text">Tukar Tambah Handphone</a></li>
+                            <li><a href="#" class="footer-text">Tokopedia COD</a></li>
+                        </ul>  
+                        <ul class="menu">
+                            <li><p class="h5 text-dark">Jual</p></li>
+                            <li><a href="#" class="footer-text">Pusat Edukasi Seller</a></li>
+                            <li><a href="#" class="footer-text">Mitra Toppers</a></li>
+                            <li><a href="#" class="footer-text">Daftar Official Store</a></li>
+                        </ul>  
+                    </div>
+                    <div class="col-2">
+                        <ul class="menu">
+                            <li><p class="h5 text-dark">Bantuan & Panduan</p></li>
+                            <li><a href="#" class="footer-text">Tokopedia Care</a></li>
+                            <li><a href="#" class="footer-text">Syarat Dan Ketentuan</a></li>
+                            <li><a href="#" class="footer-text">Kebijakan Privasi</a></li>
+                            <li><a href="#" class="footer-text">Mitra</a></li>
+                        </ul>
+                        <ul class="menu">
+                            <p class="h4 text-dark">Ikuti Kami</p>
+                            <li><i class="bi bi-twitter"></i></li>
+                            <li><i class="bi bi-facebook"></i></li>
+                            <li><i class="bi bi-pinterest"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <img src="../assets/banner2.jpg" alt="" class="footer-img">
+                    </div>
 
+                </div>
+            </div>
+        </footer>
+    </section>
     <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

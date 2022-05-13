@@ -1,10 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
 :root{
     --grey:#e6e1e1;
     --black-transparent:#3b3b3b;
     --green-light:#16c916;
+    --green-tokopedia:#27d65e;
+    --green-tokopedia-hover:#3d8052;
 }
 
+.div-kd-title{
+    display: flex;
+    align-items: center;
+}
+#div-kd-subtitle{
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    margin-right: 15px;
+}
+#div-kd-subtitle-2{
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-right: 15px;
+}
+.div-kd-time{
+    margin-left: 10px;
+}
+.div-title span{
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}
+
+.div-title a{
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: var(--green-tokopedia);
+    text-decoration: none;
+}
+
+.div-title a:hover{
+    color: var(--green-tokopedia-hover);
+}
 
 .bg-grey{
     background-color: var(--grey);
@@ -207,6 +248,197 @@
 
 /*CARD BIGGER*/
 
+
 .bigger-card-container{
+    display: flex;
+}
+
+.bigger-card{
+    width: 175px;
+    margin: 7px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px;
+}
+
+.bigger-card-img{
+    height: 175px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bigger-card-div-discoun{
+    display: flex;
+    text-align: center;
+}
+
+.bigger-card-title-product{
+    padding-top: 2px;
+    padding-left: 7px;
+    margin-bottom: 3px;
+    height: 45px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+    
+}
+
+.bigger-card-title-price{
+    font-size: 13px;
+    padding-top: 2px;
+    padding-left: 7px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    overflow:hidden;
+}
+.bigger-card-div-discount{
+    display: flex;
+    padding-top: 2px;
+    padding-left: 7px;
+}
+.bigger-card-btn-discount{
+    background-color: #f7d0d2;
+    text-align: center;
+    margin-right: 8px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #d60b15;
+    height: 20px;
+    width: 37px;
+
+}
+
+.bigger-card-title-discount{
+   font-size: 15px;
+   font-weight: lighter;
+   text-decoration: line-through;
+}
+
+.bigger-card-title-city{
+    font-size: 13px;
+    padding-top: 2px;
+    padding-left: 7px;
+    margin-bottom: 0px;
+}
+
+.bigger-card-title-star{
+    font-size: 13px;
+    border: none;
+    padding-top: 2px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+
+}
+
+
+.bigger-card-title-star span{
+    display: inline-block;
+
+}
+
+.carousel-2-prev{
+    width: 40px;
+    height: 40px;
+    background-color: #878787;
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+}
+
+.carousel-2-next{
+    width: 40px;
+    height: 40px;
+    background-color: #878787;
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+}
+.btn-div p{
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+    margin-right: 70px;
+    width: 145px;
+    
+}
+.btn-fm{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #c908a9;
+}
+.btn-cf{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #29921f;
+}
+.btn-sd{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #183fa8;
+}
+
+.btn-am{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0bafb4;
+}
+
+.btn-d{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #da6403;
+}
+
+.container-fm{
+    display: flex;
+    overflow: hidden;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.footer-text{
+    text-decoration: none;
+    color: #333333;
+    font-size: 13px;
+}
+.footer-text:hover{
+    color: #006e06;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 5px;
+}
+
+.footer-img{
+    height: 150px;
+    height: 150px;
+}
+
+.li-kp{
+    height: 10px;
+    width: 10px;
+}
+
+.menu-2{
     display: flex;
 }
